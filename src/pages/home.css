@@ -1,0 +1,152 @@
+/* HERO */
+.hero-section {
+  position: relative;
+  height: 70vh;
+  padding-top: 80px;
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  color: #2f5e3b;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(247, 247, 242, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+  text-align: center;
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* BUTTONS */
+.primary-btn,
+.secondary-btn {
+  border-radius: 999px;
+  padding: 0.7rem 1.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.primary-btn {
+  background-color: #2f5e3b;
+  color: #f7f7f2;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #2f5e3b;
+  border: 1px solid #2f5e3b;
+  margin-left: 0.75rem;
+}
+
+.secondary-btn:hover {
+  background-color: #e4efe7;
+}
+
+/* FEATURE MODULES */
+.feature-modules {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.module-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+.module-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.module-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #2f5e3b;
+}
+
+.module-desc {
+  font-size: 1rem;
+  color: #4b6b52;
+  margin-bottom: 1rem;
+}
+
+.module-list {
+  text-align: left;
+  margin: 0 auto 1.5rem;
+  max-width: 260px;
+  color: #4b6b52;
+}
+
+.module-list li {
+  margin-bottom: 0.4rem;
+}
+
+.module-btn {
+  background-color: #2f5e3b;
+  color: #f7f7f2;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.15s ease;
+}
+
+.module-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

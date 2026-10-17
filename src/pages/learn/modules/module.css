@@ -1,0 +1,101 @@
+.module-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.module-page h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1f4a2a; /* dark green */
+}
+
+.module-page p {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.module-section {
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.module-toggle {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 0;
+  color: #2e7d32;
+}
+
+.module-toggle:hover {
+  color: #256628;
+}
+
+.module-content {
+  margin-top: 12px;
+  padding-left: 5px;
+}
+
+.module-content p {
+  margin-bottom: 12px;
+}
+
+.module-content ul {
+  padding-left: 20px;
+}
+
+.module-content li {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #444;
+}
+
+.module-complete-btn {
+  margin-top: 30px;
+  padding: 12px 18px;
+  background: #2e7d32;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mastery-badge {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+.mastery-Unstarted {
+  background: #eee;
+  color: #666;
+}
+
+.mastery-Attempted {
+  background: #d4c4a8;
+  color: #4a3b2a;
+}
+
+.mastery-Familiar {
+  background: #cfe8c9;
+  color: #2e5d2b;
+}
+
+.mastery-Proficient {
+  background: #a8d08d;
+  color: #1f4d1a;
+}

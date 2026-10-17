@@ -1,0 +1,127 @@
+/* Page layout */
+.learn-page {
+  width: 100%;
+  max-width: none;
+  padding: 80px 0 40px 0;
+  margin: 0;
+  background: #e8f5e9;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Heading — matches Shop hero */
+.learn-page h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1f4a2a;
+}
+
+/* Make ALL text dark green */
+.learn-page,
+.learn-page p,
+.learn-page h2,
+.learn-page h3,
+.learn-page span,
+.learn-page div,
+.learn-card p,
+.learn-card h2 {
+  color: #1f4a2a;
+}
+
+/* Progress text */
+.learn-progress-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Clear progress button */
+.clear-progress-btn {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.clear-progress-btn:hover {
+  background: #c9302c;
+}
+
+/* Module grid — 3 → 2 → 1 columns */
+.learn-modules {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+  .learn-modules {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .learn-modules {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Module card */
+.learn-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Mastery badge */
+.learn-badge {
+  margin: 10px 0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Badge colors */
+.mastery-Unstarted {
+  background: #ccc;
+  color: #333;
+}
+
+.mastery-Beginner {
+  background: #b3e5fc;
+  color: #01579b;
+}
+
+.mastery-Intermediate {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.mastery-Advanced {
+  background: #ffe082;
+  color: #ff6f00;
+}
+
+/* Start button */
+.learn-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #4caf50;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.learn-button:hover {
+  background: #43a047;
+}
