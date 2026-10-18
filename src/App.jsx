@@ -36,7 +36,7 @@ import LearnEditor from "./pages/admin/LearnEditor";
 import Settings from "./pages/admin/Settings";
 import AdminLogin from "./pages/admin/AdminLogin";
 
-import "./App.css";
+import "./app.css";
 
 export default function App() {
   // Hidden admin shortcut: Shift + A
