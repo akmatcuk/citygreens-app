@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import "./App.css";
+import "./app.css";
 
 import { CartProvider } from "./context/CartContext";
 import { FilterProvider } from "./context/FilterContext";
