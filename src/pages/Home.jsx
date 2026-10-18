@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./home.css";
 import { Link } from "react-router-dom";
 import shopImg from "../assets/shopImg.jpg"; 
 import learnImg from "../assets/learnImg.jpg"; 
